@@ -141,7 +141,7 @@ button:hover .button-text {
     width: 50%;
     /* border: 1px solid green; */
     background: #F3EFF5;
-     box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);  
+     /* box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);   */
 }
 .right{
     width: 50%;
