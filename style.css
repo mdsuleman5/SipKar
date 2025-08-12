@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "Inter",sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.top{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+
+}
+.logo img{
+    /* border: 1px solid green; */
+    height: 80px;
+    width: 80px;
+    mix-blend-mode: multiply;
+    margin-left: 40px;
+
+}
+.nav .paani{
+    /* border: 3px solid yellow; */
+    margin-left: 290px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.nav ul li a{
+    color: #4E148C;
+    font-size: 16px;
+}
+/* From Uiverse.io by cssbuttons-io */ 
+button {
+ position: relative;
+ display: inline-block;
+ cursor: pointer;
+ outline: none;
+ border: 0;
+ vertical-align: middle;
+ text-decoration: none;
+ background: transparent;
+ padding: 0;
+ font-size: inherit;
+ font-family: inherit;
+ margin-left: 460px;
+ /* border: 2px solid green; */
+}
+
+button.learn-more {
+ width: 12rem;
+ height: auto;
+}
+
+button.learn-more .circle {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: relative;
+ display: block;
+ margin: 0;
+ width: 3rem;
+ height: 3rem;
+ background: #282936;
+ border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ margin: auto;
+ background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ left: 0.625rem;
+ width: 1.125rem;
+ height: 0.125rem;
+ background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+ position: absolute;
+ content: "";
+ top: -0.29rem;
+ right: 0.0625rem;
+ width: 0.625rem;
+ height: 0.625rem;
+ border-top: 0.125rem solid #fff;
+ border-right: 0.125rem solid #fff;
+ transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ padding: 0.75rem 0;
+ margin: 0 0 0 1.85rem;
+ color: #282936;
+ font-weight: 700;
+ line-height: 1.6;
+ text-align: center;
+ text-transform: uppercase;
+ margin-top: 15px;
+}
+
+button:hover .circle {
+ width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+ background: #fff;
+ transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+ color: #fff;
+}
+.bottom{
+    height: 90vh;
+    display: flex;
+    
+    /* border: 1px solid red;  */
+}
+.left{
+    width: 50%;
+    /* border: 1px solid green; */
+    background: #F3EFF5;
+     box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);  
+}
+.right{
+    width: 50%;
+    background: #FBFBFF;
+    /* border: 1px solid yellow; */
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 20px;
+    word-spacing: 2px;
+   
+}
+.left img{
+    margin-left: 180px;
+    mix-blend-mode: multiply;
+    height: 700px;
+}
+.sip{
+    color: red;
+    font-size: 24px;
+}
+.right .pi{
+    margin-left: 80px;
+    margin-top: 2px;
+}
+.right .class{
+    margin-left: 40px;
+    margin-top: 2px;
+}
+.pii{
+    /* margin-left: 90px; */
+    margin-top: 40px;
+}
+/* From Uiverse.io by ferlagher */ 
+.click{
+  position: relative;
+  font-size: 1.2em;
+  padding: 0.7em 1.4em;
+  background-color: #BF0426;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5em;
+  color: #DEDEDE;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+  margin-top: 120px;
+}
+
+.click::before {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: #FBFBFF;
+  border-radius: 0 0 0.5em 0;
+  box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.click:hover::before {
+  width: 1.6em;
+  height: 1.6em;
+}
+
+.click:active {
+  box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+  transform: translate(0.1em, 0.1em);
+}
